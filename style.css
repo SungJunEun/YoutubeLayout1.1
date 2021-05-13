@@ -20,8 +20,14 @@ header {
   padding: 8px 12px;
 }
 .header-icons {
+  font-size: 12px;
   padding: 8px 12px;
+}
+.header-icons a + a {
+  padding-left: 5px;
 }
 video {
   width: 100%;
+  position: sticky;
+  top: 0;
 }
