@@ -1,0 +1,20 @@
+body {
+  margin: 0;
+}
+header {
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  background-color: black;
+  color: white;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-logos i {
+  color: #d50000;
+}
+.header-logos  {
+  padding: 8px 12px;
+}
+.header-icons {
+  padding: 8px 12px;
+}
