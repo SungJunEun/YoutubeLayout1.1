@@ -1,6 +1,10 @@
 body {
   margin: 0;
 }
+a {
+  text-decoration: none;
+  color: white;
+}
 header {
   font-family: 'Roboto', sans-serif;
   display: flex;
@@ -17,4 +21,7 @@ header {
 }
 .header-icons {
   padding: 8px 12px;
+}
+video {
+  width: 100%;
 }
