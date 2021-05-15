@@ -7,6 +7,9 @@ p {
 a {
   text-decoration: none;
 }
+ul {
+  padding-left: 0;
+}
 header {
   font-family: 'Roboto', sans-serif;
   display: flex;
@@ -91,5 +94,33 @@ hr {
   padding: 8px 12px;
 }
 .subscribe-button {
+  font-size: 12px;
+}
+
+img {
+  width: 160px;
+  height: 90px;
+  }
+.recommend-list {
+  display: flex;
+  color: black;
+}
+li {
+  list-style: none;
+  margin-bottom: 12px;
+}
+.main-recommend .description-details {
   font-size: 13px;
+}
+.recommend-list p {
+  font-size: 15px;
+  margin: 0;
+  padding: 0px 12px 8px 12px;
+}
+.recommend-list .description-details {
+  font-size: 12px;
+}
+.fafa {
+  margin-top:3px;
+  font-size: 12px;
 }
